@@ -1,0 +1,151 @@
+@font-face {
+    font-family: iran;
+    src: url(../public/assets/fonts/IRANSansWeb\(FaNum\)_Bold.woff2);
+}
+*{
+    font-family: iran;
+}
+body {
+  margin: 0px;
+}
+.background-image-site {
+  /*background-image: url("../public/assets/images/orange-abstract-background-for-graphic-design-elements-with-a-modern-theme-free-vector.jpg");*/
+  /*یک عکس بک گراند*/
+  background-color: #fcf8f5; 
+}
+.button-add-to-card {
+  font-size: 13px;
+  border: 1px solid gray;
+  color: #4c4344;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-47%) translateY(45%)
+}
+.button-manage-to-card{
+  background-color: #ff5f55;
+  font-size: 13px;
+  border: 1px solid gray;
+  color: #4c4344;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-47%) translateY(45%)
+}
+.discription-container{
+  padding-top: 30px;
+}
+.serch-bar-header{
+  font-size: 13px;
+  outline: none;
+  border: none;
+  background-color: white;
+}
+.sort-array-div{
+  border-top: 2px dashed #ff5f55;
+}
+.confirm-button{
+  width: 100%;
+  background-color: #ff5f55;
+  color: white;
+  border: none;
+}
+.add-to-cart{
+  background-color: #fcf8f5;
+}
+.main-div-cart{
+  background-color: rgb(255, 255, 255);
+}
+.buttun-sort{
+  background-color: rgb(236, 236, 236);
+  padding: 7px 13px 7px 13px;
+  border-radius: 16px;
+  font-size: 15px;
+  border: none;
+}
+.selected-mode-sort{
+  background-color: #ff5f55;
+  color: #ffffff;
+  padding: 5px 10px 5px 10px;
+  border-radius: 16px;
+  font-size: 15px;  
+  border: none;
+}
+.button-manage-to-card button{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid white;
+  width: 20px;
+  height: 20px;
+  padding: 0px;
+  outline: none;
+  background-color: #ff5f55;
+}
+.text-emrty-cart-div{
+  color: #87635a;
+  font-size: 15px;
+  text-align: center;
+}
+.orderConfirmed{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.itemInPopupContainer{ 
+  max-height: 20rem;
+  overflow-y: auto;
+}
+.divitemInPopupContainer{
+  padding: 10px;
+  background-color: #f4edeb;
+}
+.bgDivToClosePopup{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 10000;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.CartSizeMobile{
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  width: 100vw;
+  height: 100%;
+  position: fixed;
+  z-index: 1000;
+  background-color: #fcf8f5;
+}
+/*
+.CartSizeMobile.dictive{
+animation-name: closeCartSizeMobile;
+animation-duration: 1s;
+animation-timing-function: ease;
+animation-delay: 0s;
+animation-direction: reverse;
+animation-fill-mode: forwards;
+}
+@keyframes closeCartSizeMobile{
+  from{width: 0vw;}
+  to{width: 100vw;}
+}
+  */
+.countToCartMobile{
+  position: relative;
+  top: 12px;
+  left: -6.5px;
+  width: 16px;
+  height: 16px;
+  background-color: #c73b0f;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
